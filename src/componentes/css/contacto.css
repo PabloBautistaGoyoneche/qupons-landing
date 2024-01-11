@@ -1,0 +1,78 @@
+@import url("../../index.css");
+
+.seccion-acercade {
+    background-color: var(--color-gris-sueve);
+}
+
+.container-acercade h2{
+    color: var(--color-verde) !important;
+    font-weight: 700;
+    text-align: center;
+}
+
+.container-acercade p{
+    text-align: center;
+}
+
+.titulo-participantes {
+    text-align: center;
+    color: var(--color-verde);
+    font-weight: 700;
+    padding: 3rem 0 3rem 0;
+    margin-bottom: 0;
+    font-size: 2.5rem;
+
+}
+
+.container-acercade-participantes {
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 2rem;
+    
+}
+
+.programador h3 {
+    text-align: center;
+    color: var(--color-verde);
+    font-weight: 700;
+
+    color: #4d4d4d;
+}
+
+.programador a {
+   text-align: center;
+   display: block;
+}
+
+.programador p {
+    text-align: center;
+}
+
+.programador button {
+    padding: 0.7rem 2rem;
+    border: 0;
+    color: var(--color-blanco);
+    background-color: #03438d;
+    border-radius: 0.5rem;
+}
+
+.collapse, .ncollapseavbar {
+    display: flex;
+    justify-content: flex-end;
+}
+
+@media only screen and (max-width: 768px) {
+    .container-acercade-participantes {
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 2rem;
+        
+    }
+    
+    .collapse, .ncollapseavbar {
+        display: flex;
+        justify-content: center;
+        text-align: center;
+    }
+    
+}

@@ -16,6 +16,9 @@ footer p {
     color: var(--color-verde) !important;
     text-align: center;
     padding: 3rem 0 3rem 0;
+    font-family: var(--font-family) !important;
+    font-weight: 700;
+
 }
 
 

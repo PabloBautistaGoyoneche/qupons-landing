@@ -8,7 +8,7 @@ function Footer() {
             <div className="logo-footer">
               <h1>Qupons</h1>
               <a href="https://github.com/MiguelBG12/Proyecto-Qupons" target="_blank" >
-              <button><i class="fa-brands fa-github"></i>Visita Github</button>
+              <button><i class="fa-brands fa-github"></i>Visita el proyecto en Github</button>
               </a>
             </div>
             <hr />

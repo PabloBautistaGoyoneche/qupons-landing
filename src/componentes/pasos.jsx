@@ -5,7 +5,7 @@ function Pasos() {
     <>
     <section className="seccion-pasos">
       <div className="container">
-        <h2 className='titulo-pasos'>¿Como funciona Qupons?</h2>
+        <h2 className='titulo-pasos'>¿Como funciona?</h2>
         <div className="container-pasos">
           <div className="base-paso">
           <i class="fa-solid fa-user"></i>

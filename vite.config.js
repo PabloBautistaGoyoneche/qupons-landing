@@ -4,5 +4,6 @@ import react from '@vitejs/plugin-react-swc'
 // https://vitejs.dev/config/
 export default defineConfig({
   plugins: [react()],
-  //base:'https://pablobautistagoyoneche.gitlab.io/landing-qupons/dist'
+  base:'/qupons-landing/'
+  //base:'https://pablobautistagoyoneche.gitlab.io/qupons-landing'
 })

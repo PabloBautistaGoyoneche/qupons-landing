@@ -8,8 +8,9 @@ function Contenido() {
     <>
 
     <div className="computadoras">
-    <section>
+    <section id="caracteristicas">
         <div className="container">
+          <h1 className="tituloh1">Caracteristicas del proyecto</h1>
           <div className="container-img-text">
             <div>
               <img src={banner_1} />
@@ -53,7 +54,7 @@ function Contenido() {
           </div>
         </div>
       </section>
-      <section>
+      <section id="caracteristicas">
         <div className="container">
           <div className="container-img-text">
             <div>
