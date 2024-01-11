@@ -1,0 +1,42 @@
+@import url("../../index.css");
+
+section {
+    padding: 5rem 0 5rem 0;
+}
+
+
+.container-img-text {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 3rem;
+    align-items: center;
+}
+
+.container-img-text h2 {
+    color: var(--color-verde);
+    font-weight: 700;
+}
+
+.tablets-celulares {
+    display: none;
+}
+
+
+@media only screen and (max-width: 768px) {
+
+    .container-img-text {
+        display: grid;
+        grid-template-columns: 1FR;
+        gap: 3rem;
+        align-items: center;
+    }
+
+    .computadoras {
+        display: none;
+    }
+
+    .tablets-celulares {
+        display: block;
+    }
+
+}

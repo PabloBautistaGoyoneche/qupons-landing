@@ -1,0 +1,10 @@
+@import url("../../index.css");
+
+header {
+    background-color: var(--color-verde);
+}
+
+h1 {
+    color: var(--color-blanco) !important;
+    text-align: center;
+}
